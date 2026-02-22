@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mkart - Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Mkart <span>Grocery</span></div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products, brands and more">
+            </div>
+            <div class="nav-links">
+                <button id="login-btn">Login</button>
+                <div class="cart">Cart <span id="cart-count">0</span></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Fresh Groceries at Your Doorstep</h2>
+        </section>
+
+        <section id="product-grid" class="product-grid">
+            <p>Loading fresh products...</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
