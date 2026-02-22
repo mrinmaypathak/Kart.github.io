@@ -1,0 +1,33 @@
+/* Navbar */
+.navbar {
+    background-color: #2e7d32; /* Forest Green */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 50px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links button {
+    background: white;
+    color: #2e7d32;
+    border: 2px solid #2e7d32;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+.add-btn {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background: #4caf50; /* Lighter green on hover */
+}
